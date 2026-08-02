@@ -1,0 +1,17 @@
+consul:
+  global:
+    name: consul
+    datacenter: dc1
+  server:
+    replicas: 1
+    storage: 5Gi
+  ui:
+    enabled: true
+  connectInject:
+    enabled: false       # service mesh sidecar injection
+  meshGateway:
+    enabled: false
+  ingressGateway:
+    enabled: false
+  terminatingGateways:
+    enabled: false
