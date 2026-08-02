@@ -1,0 +1,7 @@
+apiVersion: v2
+name: consul-wrapper
+version: 1.0.0
+dependencies:
+- name: consul
+  version: "2.0.2"
+  repository: https://helm.releases.hashicorp.com

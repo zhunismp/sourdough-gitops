@@ -7,7 +7,7 @@ spec:
   generators:
   - git:
       repoURL: https://github.com/zhunismp/sourdough-gitops
-      revision: main
+      revision: master
       directories:
       - path: core/*
   template:
